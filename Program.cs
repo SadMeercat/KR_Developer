@@ -40,7 +40,7 @@ string ArrayToStr(string[] strArray) //Create string from array
 
     for (int i = 0; i < strArray.Length; i++)
     {
-        result += strArray[i] + " ";
+        result += "\""+ strArray[i] + "\" ";
     }
 
     result += "]";
